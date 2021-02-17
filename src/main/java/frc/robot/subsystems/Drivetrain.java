@@ -162,6 +162,7 @@ public class Drivetrain extends SubsystemBase {
     return (getLeftEncoderDistance() + getRightEncoderDistance()) / 2.0;
   }
 
+  //THE CONIDITIONALS ARE FOR THE SIMULATION
   public double getLeftEncoderDistance(){
     if(Robot.isReal()) {
       return leftMaster.getSelectedSensorPosition() * Constants.DriveConstants.kDistancePerPulseFactor;

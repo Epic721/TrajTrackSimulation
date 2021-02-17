@@ -128,7 +128,7 @@ public class RobotContainer {
     //         // Pass config
     //         config);
     
-    String trajectoryJSON = "/Users/Autodesk/Desktop/FRC/FRC Code/SimulatorCodeTrajTrack/PathWeaver/output/Barrel.wpilib.json"; //NEED TO REPLACE YourPath WITH PATH NAME?->DONE?
+    String trajectoryJSON = "/Users/Autodesk/Desktop/FRC/FRC Code/SimulatorCodeTrajTrack/PathWeaver/output/Barrel.wpilib.json"; //NEED TO REPLACE YourPath WITH PATH NAME?->DONE
     Trajectory trajectory = new Trajectory();
     try {
       Path trajectoryPath = Filesystem.getDeployDirectory().toPath().resolve(trajectoryJSON);
